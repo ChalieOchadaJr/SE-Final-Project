@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+	
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("bg.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.logo img{
+	width: 300px;
+	float: left;
+	padding-left: 38%;
+	padding-top: 2%;
+}
+.welcome-text{
+	position: absolute;
+	margin: 23% 13%;
+	text-align: center;
+}
+
+.welcome-text h1{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 85px;
+}
+.welcome-text h3{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.welcome-text a{
+	border: 5px solid red;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 35px;
+	display: inline-block;
+	color: red;
+}
+
+.welcome-text a:hover{
+	background: red;
+	color: #fff;
+}
+
+.welcome-text p{
+	color: white;
+}
